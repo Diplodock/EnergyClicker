@@ -27,6 +27,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/cake"
                 tools:layout_editor_absoluteX="0dp"
@@ -37,6 +38,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/borsh"
                 tools:layout_editor_absoluteX="600dp" />
@@ -55,6 +57,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/muffin2"
                 tools:layout_editor_absoluteX="0dp"
@@ -65,8 +68,9 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:background="@android:color/transparent"
-                android:scaleType="fitXY"
+                android:contentDescription="@string/app_name"
 
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/mars" />
 
         </TableRow>
@@ -83,8 +87,9 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:background="@android:color/transparent"
-                android:scaleType="fitXY"
+                android:contentDescription="@string/app_name"
 
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/dd8cd1016067dc852ccd34b857cbebd8" />
 
             <ImageButton
@@ -92,6 +97,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/sandwich"
                 tools:layout_editor_absoluteX="600dp" />
