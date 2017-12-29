@@ -29,7 +29,7 @@
                 android:background="@android:color/transparent"
                 android:contentDescription="@string/app_name"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/cake"
+                app:srcCompat="@drawable/cakeslice"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="291dp" />
 
@@ -40,7 +40,7 @@
                 android:background="@android:color/transparent"
                 android:contentDescription="@string/app_name"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/borsh"
+                app:srcCompat="@drawable/borshh"
                 tools:layout_editor_absoluteX="600dp" />
 
         </TableRow>
@@ -59,7 +59,7 @@
                 android:background="@android:color/transparent"
                 android:contentDescription="@string/app_name"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/muffin2"
+                app:srcCompat="@drawable/muffin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="291dp" />
 
@@ -69,8 +69,7 @@
                 android:layout_height="150dp"
                 android:background="@android:color/transparent"
                 android:contentDescription="@string/app_name"
-
-                android:scaleType="fitXY"
+                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/mars" />
 
         </TableRow>
@@ -88,9 +87,8 @@
                 android:layout_height="150dp"
                 android:background="@android:color/transparent"
                 android:contentDescription="@string/app_name"
-
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/dd8cd1016067dc852ccd34b857cbebd8" />
+                app:srcCompat="@drawable/bigmac" />
 
             <ImageButton
                 android:id="@+id/sandwich"
