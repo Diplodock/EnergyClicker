@@ -16,7 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BigmacActivity"></activity>
+        <activity android:name=".BigmacActivity" />
+        <activity android:name=".CakeActivity" />
+        <activity android:name=".BorshActivity" />
+        <activity android:name=".MuffinActivity" />
+        <activity android:name=".MarsActivity" />
+        <activity android:name=".SandwichActivity" />
     </application>
 
 </manifest>

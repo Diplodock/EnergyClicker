@@ -34,6 +34,46 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        cake.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), CakeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        borsh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), BorshActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        muffin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MuffinActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mars.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MarsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        sandwich.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), SandwichActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 

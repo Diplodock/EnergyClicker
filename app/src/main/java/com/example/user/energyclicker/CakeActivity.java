@@ -1,16 +1,14 @@
 package com.example.user.energyclicker;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class BigmacActivity extends AppCompatActivity {
+public class CakeActivity extends AppCompatActivity {
     private int clicks = 0;
     ProgressBar progressBar;
     TextView progressCount;
@@ -19,7 +17,7 @@ public class BigmacActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bigmac);
+        setContentView(R.layout.activity_cake);
         burnButton = findViewById(R.id.burnButton);
         progressBar = findViewById(R.id.progressBar);
         progressCount = findViewById(R.id.progressCount);

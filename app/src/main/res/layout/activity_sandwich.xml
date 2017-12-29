@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="com.example.user.energyclicker.BigmacActivity">
+    tools:context="com.example.user.energyclicker.SandwichActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:max="503000" />
+            android:max="275000" />
 
         <Button
             android:id="@+id/burnButton"
